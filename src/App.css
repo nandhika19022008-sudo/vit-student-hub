@@ -1,0 +1,177 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f7f5;
+  color: #222;
+}
+
+.app {
+  min-height: 100vh;
+}
+
+header {
+  background-color: white;
+  text-align: center;
+  padding: 45px 20px 35px;
+  border-bottom: 1px solid #ddd;
+}
+
+.logo {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+header h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+header p {
+  color: #666;
+}
+
+.search-area {
+  text-align: center;
+  padding: 30px 20px;
+}
+
+.search-area input {
+  width: 90%;
+  max-width: 600px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.search-area input:focus {
+  outline: none;
+  border-color: #146b2e;
+}
+
+main {
+  width: 90%;
+  max-width: 850px;
+  margin: auto;
+}
+
+main h2 {
+  margin-bottom: 20px;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.card {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.card-icon {
+  font-size: 30px;
+}
+
+.card-content {
+  flex: 1;
+}
+
+.category {
+  font-size: 13px;
+  color: #146b2e;
+  margin-bottom: 5px;
+}
+
+.card-content h3 {
+  margin-bottom: 5px;
+}
+
+.card-content p {
+  color: #666;
+  font-size: 14px;
+}
+
+.card a {
+  background-color: #146b2e;
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 6px;
+  white-space: nowrap;
+}
+
+.card a:hover {
+  background-color: #0d5122;
+}
+
+.no-result {
+  background-color: white;
+  padding: 25px;
+  text-align: center;
+  border-radius: 10px;
+  color: #777;
+}
+
+.about {
+  width: 90%;
+  max-width: 850px;
+  margin: 50px auto;
+  background-color: white;
+  padding: 25px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+}
+
+.about h2 {
+  margin-bottom: 10px;
+}
+
+.about p {
+  color: #666;
+  line-height: 1.6;
+}
+
+footer {
+  text-align: center;
+  background-color: white;
+  border-top: 1px solid #ddd;
+  padding: 25px;
+  color: #777;
+  margin-top: 50px;
+}
+
+footer p {
+  margin: 5px;
+}
+
+@media (max-width: 600px) {
+
+  header h1 {
+    font-size: 26px;
+  }
+
+  .card {
+    align-items: flex-start;
+  }
+
+  .card a {
+    padding: 8px 12px;
+  }
+
+}
