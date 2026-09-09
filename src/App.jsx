@@ -172,7 +172,7 @@ function App() {
       <footer>
 
         <p>
-          Made by a VIT student ❤️
+          Developed by Nandhika | VIT Student ✨
         </p>
 
         <p>
